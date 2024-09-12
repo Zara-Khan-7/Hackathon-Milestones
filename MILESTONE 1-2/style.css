@@ -1,0 +1,82 @@
+/* GENERAL STYLING */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(215, 213, 216);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(62, 7, 75);
+}
+
+/* LEFT SECTION STYLING */
+.left-section {
+    background-color: rgb(166, 153, 166);
+    color: rgb(26, 3, 28);
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    border-right: 5px solid rgb(98, 4, 70);
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(63, 10, 84);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(26, 3, 28);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(83, 9, 94);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* RIGHT SECTION STYLING */
+.left-section{
+    padding: 20px;
+    width: 55%;
+}
+
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(42, 3, 54);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(175, 237, 216);
+}
